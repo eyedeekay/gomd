@@ -11,12 +11,13 @@ import (
 	"strconv"
 	"time"
 
-	"github.com/GeertJohan/go.rice"
+	rice "github.com/GeertJohan/go.rice"
 	"github.com/labstack/echo"
 	"github.com/labstack/echo/engine/standard"
 	"github.com/labstack/echo/middleware"
 	"github.com/nochso/gomd/eol"
-	"github.com/toqueteos/webbrowser"
+
+	fcw "github.com/eyedeekay/go-fpw"
 	"gopkg.in/alecthomas/kingpin.v2"
 )
 
@@ -127,7 +128,9 @@ func WaitForServer() {
 		break
 	}
 	log.Println("Opening " + url)
-	if err := webbrowser.Open(url); err != nil {
-		log.Printf("Possible error while opening browser: %s", err)
+	if _, err := fcw.WebAppFirefox("gomd", false, url); err != nil {
+		log.Println(err)
+	} else {
+		//defer ui.Close()
 	}
 }
