@@ -4,7 +4,7 @@ go 1.19
 
 require (
 	github.com/GeertJohan/go.rice v1.0.3
-	github.com/eyedeekay/go-fpw v0.0.5
+	github.com/eyedeekay/go-fpw v0.0.6
 	github.com/labstack/echo v0.0.0-00010101000000-000000000000
 	gopkg.in/alecthomas/kingpin.v2 v2.2.6
 )
@@ -24,5 +24,3 @@ require (
 )
 
 replace github.com/labstack/echo => github.com/labstack/echo v2.0.3-0.20160926051323-04e6901d05b5+incompatible
-
-replace github.com/eyedeekay/go-fpw => ../../eyedeekay/go-fpw

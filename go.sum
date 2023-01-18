@@ -13,6 +13,8 @@ github.com/davecgh/go-spew v1.1.1 h1:vj9j/u1bqnvCEfJOwUhtlOARqs3+rkHYY13jYWTU97c
 github.com/davecgh/go-spew v1.1.1/go.mod h1:J7Y8YcW2NihsgmVo/mv3lAwl/skON4iLHjSsI+c5H38=
 github.com/dgrijalva/jwt-go v3.2.0+incompatible h1:7qlOGliEKZXTDg6OTjfoBKDXWrumCAMpl/TFQ4/5kLM=
 github.com/dgrijalva/jwt-go v3.2.0+incompatible/go.mod h1:E3ru+11k8xSBh+hMPgOLZmtrrCbhqsmaPHjLKYnJCaQ=
+github.com/eyedeekay/go-fpw v0.0.6 h1:fpH4s/2PFX72/ngZRtJYg4OOuY8E+iOz9e7L3ujSBO0=
+github.com/eyedeekay/go-fpw v0.0.6/go.mod h1:OZD3uVWaZcd9uKc7JyZHXfFpEwkMg09EfcHmYjenVRw=
 github.com/jessevdk/go-flags v1.4.0/go.mod h1:4FA24M0QyGHXBuZZK/XkWh8h0e1EYbRYJSGM75WSRxI=
 github.com/labstack/echo v2.0.3-0.20160926051323-04e6901d05b5+incompatible h1:3jzPicCSvHwBELaX/U/jp9keZ5yiNm4mqhevnE32FsA=
 github.com/labstack/echo v2.0.3-0.20160926051323-04e6901d05b5+incompatible/go.mod h1:0INS7j/VjnFxD4E2wkz67b8cVwCLbBmJyDaka6Cmk1s=
